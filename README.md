@@ -15,7 +15,7 @@ $ ./install.sh
 
 ## For Python
 
-`easy_vim` uses [black](https://github.com/psf/black) to format python code. If you are using Python 3.6.0+, de-comment all `black` configuration in `$HOME/.vimrs` and `pip install black`. Then command `,b` would work.
+`easy_vim` uses [black](https://github.com/psf/black) to format python code. If you are using Python 3.6.0+, de-comment all `black` configuration in `$HOME/.vimrc` and `pip install black`. Then command `,b` would work.
 
 ## Cheat Sheet
 
