@@ -19,6 +19,9 @@ vim +PluginInstall +qall
 # Compile YouCompleteMe (modify arguments if needed)
 $BundleDir/YouCompleteMe/install.py --rust-completer
 
+# Install Powerline fonts
+$BundleDir/powerline-fonts/install.sh
+
 # Make undo history directory
 UndoDir=$VimRunTime/undodir
 if [ ! -d "$UndoDir" ]
