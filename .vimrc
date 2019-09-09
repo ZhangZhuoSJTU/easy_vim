@@ -37,6 +37,14 @@ set colorcolumn=80
 " Hightlight current line
 set cursorline
 
+" Remap leader key
+let mapleader = ","
+let g:mapleader = ","
+
+"===============================================================================
+" Search
+"===============================================================================
+
 " Hightlight search results
 set hlsearch
 
@@ -46,10 +54,6 @@ set incsearch
 " When searching try to be smart about cases
 set ignorecase
 set smartcase
-
-" Remap leader key
-let mapleader = ","
-let g:mapleader = ","
 
 "===============================================================================
 " Self-Designed Functions
@@ -118,6 +122,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'artur-shaik/vim-javacomplete2'
 "Plugin 'davidhalter/jedi-vim'
+Plugin 'Yggdroot/indentLine'
 
 " Necessary auto-format tools
 Plugin 'rust-lang/rust.vim'
@@ -192,6 +197,9 @@ colorscheme PaperColor
 
 "highlight Normal ctermbg=NONE
 "highlight nonText ctermbg=NONE
+
+" Set searching match color
+highlight Search ctermbg=227
 
 
 "===============================================================================
