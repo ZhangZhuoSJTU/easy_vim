@@ -122,6 +122,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'artur-shaik/vim-javacomplete2'
 "Plugin 'davidhalter/jedi-vim'
+
+" Indent line
 Plugin 'Yggdroot/indentLine'
 
 " Necessary auto-format tools
