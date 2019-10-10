@@ -89,6 +89,9 @@ endif
 
 " :W saves the file too (useful for mistyping)
 command W w
+" :O refreshes the file too (useful for mistyping)
+command O o
+
 
 "===============================================================================
 " Vundle Plugins
