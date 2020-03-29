@@ -34,3 +34,6 @@ $HOME/.cargo/bin/rustup component add rustfmt
 
 # Set Black
 # pip install --user black
+
+# Set ClangFormat
+# sudo apt install clang-format

@@ -132,6 +132,7 @@ Plugin 'Yggdroot/indentLine'
 " Necessary auto-format tools
 Plugin 'rust-lang/rust.vim'
 "Plugin 'psf/black'
+"Plugin 'rhysd/vim-clang-format'
 
 " TagbarToggle
 "Plugin 'majutsushi/tagbar'
@@ -267,6 +268,13 @@ let NETDTreeShowHidden=1
 "===============================================================================
 " RustFmt with <leader>r
 :nnoremap <leader>r :RustFmt<CR>
+
+
+"===============================================================================
+" ClangFormat
+"===============================================================================
+" ClangFormat with <leader>c
+":nnoremap <leader>c :ClangFormat<CR>
 
 
 "===============================================================================
