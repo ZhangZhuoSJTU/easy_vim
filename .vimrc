@@ -133,6 +133,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'rust-lang/rust.vim'
 "Plugin 'psf/black'
 "Plugin 'rhysd/vim-clang-format'
+"Plugin 'maksimr/vim-jsbeautify'
 
 " TagbarToggle
 "Plugin 'majutsushi/tagbar'
@@ -268,6 +269,15 @@ let NETDTreeShowHidden=1
 "===============================================================================
 " RustFmt with <leader>r
 :nnoremap <leader>r :RustFmt<CR>
+
+
+"===============================================================================
+" JSBeautifier 
+"===============================================================================
+" JSBeautifier with <leader>j
+":nnoremap <leader>j :call JsBeautify()<CR>
+":nnoremap <leader>h :call HtmlBeautify()<CR>
+":nnoremap <leader>C :call CSSBeautify()<CR>
 
 
 "===============================================================================
