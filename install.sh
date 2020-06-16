@@ -30,7 +30,7 @@ then
 fi
 
 # Set RustFmt
-$HOME/.cargo/bin/rustup component add rustfmt
+# $HOME/.cargo/bin/rustup component add rustfmt
 
 # Set Black
 # pip install --user black
