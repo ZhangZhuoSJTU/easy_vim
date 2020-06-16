@@ -268,7 +268,7 @@ let NETDTreeShowHidden=1
 " RustFmt
 "===============================================================================
 " RustFmt with <leader>r
-:nnoremap <leader>r :RustFmt<CR>
+" :nnoremap <leader>r :RustFmt<CR>
 
 
 "===============================================================================
