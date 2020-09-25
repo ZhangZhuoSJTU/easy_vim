@@ -130,7 +130,7 @@ Plugin 'ycm-core/YouCompleteMe'
 Plugin 'Yggdroot/indentLine'
 
 " Necessary auto-format tools
-Plugin 'rust-lang/rust.vim'
+"Plugin 'rust-lang/rust.vim'
 "Plugin 'psf/black'
 "Plugin 'rhysd/vim-clang-format'
 "Plugin 'maksimr/vim-jsbeautify'
