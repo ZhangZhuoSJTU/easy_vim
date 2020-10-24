@@ -122,7 +122,7 @@ Plugin 'powerline/powerline-fonts'
 Plugin 'scrooloose/nerdtree'
 
 " Auto complete
-Plugin 'ycm-core/YouCompleteMe'
+"Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'artur-shaik/vim-javacomplete2'
 "Plugin 'davidhalter/jedi-vim'
 

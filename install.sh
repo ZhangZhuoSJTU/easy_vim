@@ -17,7 +17,7 @@ fi
 vim +PluginInstall +qall
 
 # Compile YouCompleteMe (modify arguments if needed)
-$BundleDir/YouCompleteMe/install.py --rust-completer
+# $BundleDir/YouCompleteMe/install.py --rust-completer
 
 # Install Powerline fonts
 $BundleDir/powerline-fonts/install.sh
@@ -33,7 +33,7 @@ fi
 # $HOME/.cargo/bin/rustup component add rustfmt
 
 # Set Black
-# pip install --user black
+# pip install black
 
 # Set ClangFormat
 # sudo apt install clang-format
