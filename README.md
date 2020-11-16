@@ -24,3 +24,7 @@ $ ./install.sh
 ## Cheat Sheet
 
 + `,l`: Open/close nerdtree
+
+## Troubleshoot
+
+`easy_vim` requires powerline symbols. If you did not install any fonts supporting powerline symbols on your local machine, [Cascadia Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode) is recommended. More choices can be found at [nerd-fonts](https://github.com/ryanoasis/nerd-fonts).
